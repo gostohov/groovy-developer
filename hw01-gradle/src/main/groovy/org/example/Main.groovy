@@ -1,8 +1,8 @@
 package org.example
 
-import com.google.common.math.IntMath
-
-static void main(String[] args) {
-    println "Hello world!"
-    println IntMath.factorial(4)
+class Main {
+    static void main(String[] args) {
+        def helloOtus = new HelloOtus()
+        helloOtus.main(args)
+    }
 }

@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019e936-09a4-4e31-b1b8-1ea0da0dee17" name="Changes" comment="feat: Добавлен модуль hw03-gradle">
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/CellBuilder.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/RowBuilder.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/SheetBuilder.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/Style.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/Workbook.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/XlsxBuilder.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="6019e936-09a4-4e31-b1b8-1ea0da0dee17" name="Changes" comment="feat: Добавлен модуль hw06-dsl-gradle">
+      <change afterPath="$PROJECT_DIR$/hw06-dsl-gradle/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw06-dsl-gradle/src/main/groovy/org/example/DslRunner.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw06-dsl-gradle/src/main/groovy/org/example/EnvironmentConfig.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw06-dsl-gradle/src/main/groovy/org/example/MappingsConfig.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw06-dsl-gradle/src/main/groovy/org/example/WebServerConfig.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw06-dsl-gradle/src/main/groovy/org/example/WebServerDSL.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw06-dsl-gradle/src/main/groovy/org/example/config.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw06-dsl-gradle/src/test/groovy/org/example/DslTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw06-dsl-gradle/src/test/groovy/org/example/WebServerDSLSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,17 +60,6 @@
                 <item name="groovy-developer" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="groovy-developer" type="f1a62948:ProjectNode" />
-                <item name="hw04-gradle" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="groovy-developer" type="f1a62948:ProjectNode" />
-                <item name="hw04-gradle" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -111,12 +101,19 @@
   "keyToString": {
     "Gradle.ATMTest.executor": "Run",
     "Gradle.Build groovy-developer.executor": "Run",
+    "Gradle.DslTest.testSimpleConfig.executor": "Run",
     "Gradle.MoneyProcessorTest.executor": "Run",
+    "Gradle.ServerConfigSpec.Test server configuration creation.executor": "Run",
+    "Gradle.ServerDSLSpec.executor": "Run",
+    "Gradle.ServerDSLSpec.should configure server with basic settings.executor": "Debug",
     "Gradle.TodoListTest.Test busy time retrieval for a specific date.executor": "Run",
     "Gradle.TodoListTest.Test time overlap validation.executor": "Run",
     "Gradle.TodoListTest.executor": "Run",
+    "Gradle.WebServerDSLSpec.Test basic server config.executor": "Run",
+    "Gradle.WebServerDSLSpec.executor": "Run",
     "Gradle.groovy-developer [test].executor": "Run",
     "Gradle.groovy-developer:hw03-gradle [test].executor": "Run",
+    "Gradle.groovy-developer:hw06-dsl-gradle [:hw06-dsl-gradle:org.example.Main.main()].executor": "Run",
     "Groovy.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -124,24 +121,24 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "homework-4",
+    "git-widget-placeholder": "homework-6",
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "liberica-11",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gosto/Documents/wsl/education/groovy-developer",
+    "last_opened_file_path": "C:/Users/gosto/Documents/wsl/education/project_groovy_training",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "Groovy compiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Groovy.Main">
+  <component name="RunManager" selected="Gradle.WebServerDSLSpec">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="groovy-developer" />
       <working_directory value="$PROJECT_DIR$" />
@@ -161,118 +158,122 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="TodoListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":hw03-gradle:test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.TodoListTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="TodoListTest.Test busy time retrieval for a specific date" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":hw03-gradle:test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.TodoListTest.Test busy time retrieval for a specific date&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="TodoListTest.Test time overlap validation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":hw03-gradle:test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.TodoListTest.Test time overlap validation&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="groovy-developer:hw03-gradle [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hw03-gradle" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Main" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="groovy-developer.hw04-gradle.main" />
-      <setting name="path" value="file://$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/Main.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example" />
-      <setting name="debug" value="false" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="groovy-developer.hw06-dsl-gradle.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DslTest.testSimpleConfig" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":hw06-dsl-gradle:test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.DslTest.testSimpleConfig&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ServerConfigSpec.Test server configuration creation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":hw06-dsl-gradle:test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.ServerConfigSpec.Test server configuration creation&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WebServerDSLSpec" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":hw06-dsl-gradle:test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.WebServerDSLSpec&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WebServerDSLSpec.Test basic server config" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":hw06-dsl-gradle:test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.WebServerDSLSpec.Test basic server config&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Groovy.Main" />
-        <item itemvalue="Gradle.TodoListTest.Test time overlap validation" />
-        <item itemvalue="Gradle.TodoListTest.Test busy time retrieval for a specific date" />
-        <item itemvalue="Gradle.TodoListTest" />
-        <item itemvalue="Gradle.groovy-developer:hw03-gradle [test]" />
+        <item itemvalue="Gradle.WebServerDSLSpec" />
+        <item itemvalue="Gradle.WebServerDSLSpec.Test basic server config" />
+        <item itemvalue="Gradle.DslTest.testSimpleConfig" />
+        <item itemvalue="Gradle.ServerConfigSpec.Test server configuration creation" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +386,8 @@
     <MESSAGE value="ci: Добавлен github actions пайплайн" />
     <MESSAGE value="feat: Добавлен модуль hw02-gradle" />
     <MESSAGE value="feat: Добавлен модуль hw03-gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Добавлен модуль hw03-gradle" />
+    <MESSAGE value="feat: Добавлен модуль hw06-dsl-gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Добавлен модуль hw06-dsl-gradle" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

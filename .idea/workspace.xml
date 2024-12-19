@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6019e936-09a4-4e31-b1b8-1ea0da0dee17" name="Changes" comment="feat: Добавлен модуль hw03-gradle">
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/CellBuilder.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/RowBuilder.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/SheetBuilder.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/Style.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/Workbook.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/XlsxBuilder.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="6019e936-09a4-4e31-b1b8-1ea0da0dee17" name="Changes" comment="feat: Добавлен модуль hw06-dsl-gradle">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/org/example/Main.groovy" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,9 @@
         <task path="$PROJECT_DIR$/hw03-gradle">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/hw07-gradle">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -57,18 +54,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="groovy-developer" type="f1a62948:ProjectNode" />
+                <item name="hw07-gradle" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="groovy-developer" type="f1a62948:ProjectNode" />
+                <item name="hw07-gradle" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="groovy-developer" type="f1a62948:ProjectNode" />
-                <item name="hw04-gradle" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="groovy-developer" type="f1a62948:ProjectNode" />
-                <item name="hw04-gradle" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="hw07-gradle" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -111,12 +110,23 @@
   "keyToString": {
     "Gradle.ATMTest.executor": "Run",
     "Gradle.Build groovy-developer.executor": "Run",
+    "Gradle.CodeGenPluginFunctionalTest.Task generateCode generates a Java class.executor": "Debug",
+    "Gradle.CodeGenPluginFunctionalTest.executor": "Run",
+    "Gradle.CodeGenPluginFunctionalTest.plugin generates a class with correct structure.executor": "Run",
+    "Gradle.CodeGenPluginIntegrationTest.executor": "Run",
+    "Gradle.CodeGenPluginIntegrationTest.plugin generates a class and integrates with build.executor": "Run",
+    "Gradle.FunctionalTest.testPluginWithDefaultConfig.executor": "Run",
+    "Gradle.IntegrationTest.testGeneratedClassCompilation.executor": "Run",
     "Gradle.MoneyProcessorTest.executor": "Run",
     "Gradle.TodoListTest.Test busy time retrieval for a specific date.executor": "Run",
     "Gradle.TodoListTest.Test time overlap validation.executor": "Run",
     "Gradle.TodoListTest.executor": "Run",
+    "Gradle.groovy-developer [functionalTest].executor": "Run",
     "Gradle.groovy-developer [test].executor": "Run",
     "Gradle.groovy-developer:hw03-gradle [test].executor": "Run",
+    "Gradle.groovy-developer:hw07-gradle [build].executor": "Run",
+    "Gradle.groovy-developer:hw07-gradle [clean].executor": "Run",
+    "Gradle.groovy-developer:hw07-gradle [functionalTest].executor": "Run",
     "Groovy.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -124,7 +134,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "homework-4",
+    "git-widget-placeholder": "homework-7",
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "liberica-11",
@@ -134,14 +144,20 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Groovy compiler",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Groovy.Main">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gosto\Documents\wsl\education\groovy-developer\hw07-gradle\src\functionalTest\groovy\org\example" />
+      <recent name="C:\Users\gosto\Documents\wsl\education\groovy-developer\hw07-gradle" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.groovy-developer:hw07-gradle [build]">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="groovy-developer" />
       <working_directory value="$PROJECT_DIR$" />
@@ -161,7 +177,7 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="TodoListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CodeGenPluginFunctionalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,9 +188,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":hw03-gradle:test" />
+            <option value=":hw07-gradle:test" />
             <option value="--tests" />
-            <option value="&quot;org.example.TodoListTest&quot;" />
+            <option value="&quot;org.example.CodeGenPluginFunctionalTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,7 +201,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TodoListTest.Test busy time retrieval for a specific date" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CodeGenPluginIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,9 +212,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":hw03-gradle:test" />
+            <option value=":hw07-gradle:test" />
             <option value="--tests" />
-            <option value="&quot;org.example.TodoListTest.Test busy time retrieval for a specific date&quot;" />
+            <option value="&quot;org.example.CodeGenPluginIntegrationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,34 +225,10 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TodoListTest.Test time overlap validation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="groovy-developer:hw07-gradle [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":hw03-gradle:test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.TodoListTest.Test time overlap validation&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="groovy-developer:hw03-gradle [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hw03-gradle" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hw07-gradle" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -244,7 +236,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -255,24 +247,57 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Main" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="groovy-developer.hw04-gradle.main" />
-      <setting name="path" value="file://$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example/Main.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/hw04-gradle/src/main/groovy/org/example" />
-      <setting name="debug" value="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="groovy-developer:hw07-gradle [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hw07-gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="groovy-developer:hw07-gradle [functionalTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hw07-gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="functionalTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Groovy.Main" />
-        <item itemvalue="Gradle.TodoListTest.Test time overlap validation" />
-        <item itemvalue="Gradle.TodoListTest.Test busy time retrieval for a specific date" />
-        <item itemvalue="Gradle.TodoListTest" />
-        <item itemvalue="Gradle.groovy-developer:hw03-gradle [test]" />
+        <item itemvalue="Gradle.groovy-developer:hw07-gradle [build]" />
+        <item itemvalue="Gradle.CodeGenPluginIntegrationTest" />
+        <item itemvalue="Gradle.CodeGenPluginFunctionalTest" />
+        <item itemvalue="Gradle.groovy-developer:hw07-gradle [clean]" />
+        <item itemvalue="Gradle.groovy-developer:hw07-gradle [functionalTest]" />
       </list>
     </recent_temporary>
   </component>

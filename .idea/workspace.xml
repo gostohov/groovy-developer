@@ -8,7 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/groovy/org/example/Main.groovy" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,25 +108,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.ATMTest.executor": "Run",
-    "Gradle.Build groovy-developer.executor": "Run",
-    "Gradle.CodeGenPluginFunctionalTest.Task generateCode generates a Java class.executor": "Debug",
-    "Gradle.CodeGenPluginFunctionalTest.executor": "Run",
-    "Gradle.CodeGenPluginFunctionalTest.plugin generates a class with correct structure.executor": "Run",
-    "Gradle.CodeGenPluginIntegrationTest.executor": "Run",
-    "Gradle.CodeGenPluginIntegrationTest.plugin generates a class and integrates with build.executor": "Run",
-    "Gradle.FunctionalTest.testPluginWithDefaultConfig.executor": "Run",
-    "Gradle.IntegrationTest.testGeneratedClassCompilation.executor": "Run",
+    "Gradle.DslTest.testSimpleConfig.executor": "Run",
     "Gradle.MoneyProcessorTest.executor": "Run",
+    "Gradle.ServerConfigSpec.Test server configuration creation.executor": "Run",
+    "Gradle.ServerDSLSpec.executor": "Run",
+    "Gradle.ServerDSLSpec.should configure server with basic settings.executor": "Debug",
     "Gradle.TodoListTest.Test busy time retrieval for a specific date.executor": "Run",
     "Gradle.TodoListTest.Test time overlap validation.executor": "Run",
     "Gradle.TodoListTest.executor": "Run",
-    "Gradle.groovy-developer [functionalTest].executor": "Run",
+    "Gradle.WebServerDSLSpec.Test basic server config.executor": "Run",
+    "Gradle.WebServerDSLSpec.executor": "Run",
     "Gradle.groovy-developer [test].executor": "Run",
     "Gradle.groovy-developer:hw03-gradle [test].executor": "Run",
-    "Gradle.groovy-developer:hw07-gradle [build].executor": "Run",
-    "Gradle.groovy-developer:hw07-gradle [clean].executor": "Run",
-    "Gradle.groovy-developer:hw07-gradle [functionalTest].executor": "Run",
+    "Gradle.groovy-developer:hw06-dsl-gradle [:hw06-dsl-gradle:org.example.Main.main()].executor": "Run",
     "Groovy.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -139,7 +133,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "liberica-11",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gosto/Documents/wsl/education/groovy-developer",
+    "last_opened_file_path": "C:/Users/gosto/Documents/wsl/education/project_groovy_training",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -151,12 +145,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gosto\Documents\wsl\education\groovy-developer\hw07-gradle\src\functionalTest\groovy\org\example" />
-      <recent name="C:\Users\gosto\Documents\wsl\education\groovy-developer\hw07-gradle" />
-    </key>
-  </component>
   <component name="RunManager" selected="Gradle.groovy-developer:hw07-gradle [build]">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="groovy-developer" />
@@ -201,96 +189,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CodeGenPluginIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":hw07-gradle:test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.CodeGenPluginIntegrationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="groovy-developer:hw07-gradle [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hw07-gradle" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="groovy-developer:hw07-gradle [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hw07-gradle" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="groovy-developer:hw07-gradle [functionalTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hw07-gradle" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="functionalTest" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.groovy-developer:hw07-gradle [build]" />
@@ -301,7 +199,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6019e936-09a4-4e31-b1b8-1ea0da0dee17" name="Changes" comment="" />
@@ -311,97 +208,12 @@
       <updated>1732622986992</updated>
       <workItem from="1732622988512" duration="8336000" />
     </task>
-    <task id="LOCAL-00001" summary="feat: Добавлен модуль hw01-gradle">
-      <option name="closed" value="true" />
-      <created>1732630350331</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1732630350332</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat: Добавлен класс HelloOtus">
-      <option name="closed" value="true" />
-      <created>1732630630006</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1732630630006</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test: Добавлен тест для HelloOtus">
-      <option name="closed" value="true" />
-      <created>1732630933239</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1732630933239</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ci: Добавлен github actions пайплайн">
-      <option name="closed" value="true" />
-      <created>1732631044502</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1732631044502</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat: Добавлен модуль hw02-gradle">
-      <option name="closed" value="true" />
-      <created>1732642253790</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1732642253790</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat: Добавлен модуль hw03-gradle">
-      <option name="closed" value="true" />
-      <created>1732730897166</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1732730897166</updated>
-    </task>
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/main" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Добавлен модуль hw01-gradle" />
@@ -410,11 +222,8 @@
     <MESSAGE value="ci: Добавлен github actions пайплайн" />
     <MESSAGE value="feat: Добавлен модуль hw02-gradle" />
     <MESSAGE value="feat: Добавлен модуль hw03-gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Добавлен модуль hw03-gradle" />
-  </component>
-  <component name="VgoProject">
-    <integration-enabled>false</integration-enabled>
-    <settings-migrated>true</settings-migrated>
+    <MESSAGE value="feat: Добавлен модуль hw06-dsl-gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Добавлен модуль hw06-dsl-gradle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

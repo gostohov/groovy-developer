@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/hw04-gradle" />
             <option value="$PROJECT_DIR$/hw05-json-gradle" />
             <option value="$PROJECT_DIR$/hw06-dsl-gradle" />
+            <option value="$PROJECT_DIR$/hw07-gradle" />
           </set>
         </option>
       </GradleProjectSettings>

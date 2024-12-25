@@ -8,7 +8,8 @@
 6. [Нефункциональные требования](#нефункциональные-требования)
 7. [Набор библиотек и технологий](#набор-библиотек-и-технологий)
 8. [API разрабатываемого решения](#api-разрабатываемого-решения)
-9. [Результат](#результат)
+9. [Пример использования DSL](#пример-использования-dsl)
+10. [Результат](#результат)
 
 **Тема проектной работы:**
 Разработка DSL (Domain-Specific Language) для упрощения тестирования взаимодействия с PC/SC-ридером.
@@ -158,6 +159,37 @@
      byte[] applicationLifeCycleData = protocolUtils.getTКDataResult, 0x9F7E)
      String sdkVersion = new String(Arrays.copyOfRange(applicationLifeCycleData, 1, applicationLifeCycleData.length))
      ```
+
+**Пример использования DSL:**
+
+Пример Groovy-скрипта, написанного с использованием разрабатываемого DSL:
+
+```groovy
+// Описание теста
+describe("Test for verifying SELECT PPSE") {
+
+    // Отправка команды SELECT PPSE
+    def ppseResponse = selectPpse()
+
+    // Проверка корректности ответа
+    match(ppseResponse, "*(9000)", "Response for SELECT PPSE must be correct and SW = 9000")
+
+    // Отправка команды SELECT MMPA
+    def mmpaResponse = selectMmpa()
+
+    // Проверка корректности ответа
+    match(mmpaResponse, "*(9000)", "Response for SELECT MMPA must be correct and SW = 9000")
+
+    // Отправка команды GET DATA и проверка ответа
+    def getDataResponse = sendApdu("80CA9F7E00")
+    match(getDataResponse, "*(9000)", "Response for GET DATA '9F7E' must be correct and SW = 9000")
+
+    // Извлечение TLV-данных
+    def applicationLifeCycleData = getTlvTag(getDataResponse, 0x9F7E)
+    String sdkVersion = new String(applicationLifeCycleData[1..-1])
+    match(sdkVersion ==~ /^[A-Z]{4} [A-Z]{3,4} [0-9].[0-9].[0-9].*$/, true, "SDK name and version must comply with the format: DVLP TYPE N.N.N")
+}
+```
 
 **Результат:**
 
